@@ -32,17 +32,17 @@ Route::get('/', function () {
         ],
         'ft_links' => [
             'dc comics' => [
-                'characters' => 'characters',
-                'comics' => 'comics',
-                'movies' => 'movies',
-                'tv' => 'tv',
-                'games' => 'games',
-                'videos' => 'videos',
-                'news' => 'news',
+                'Characters' => 'Characters',
+                'Comics' => 'Comics',
+                'Movies' => 'Movies',
+                'Tv' => 'Tv',
+                'Games' => 'Games',
+                'Videos' => 'Videos',
+                'News' => 'News',
             ],
             'shop' => [
-                'shop DC' => 'shop DC',
-                'shop DC collectibles' => 'shop DC collectibles',
+                'Shop DC' => 'Shop DC',
+                'Shop DC collectibles' => 'Shop DC collectibles',
             ],
             'dc' => [
                 'Terms of Use' => 'Terms of Use',
@@ -68,6 +68,13 @@ Route::get('/', function () {
             ],
 
         ],
+        'socials' => [
+            "facebook.png",
+            "twitter.png",
+            "youtube.png",
+            "pinterest.png",
+            "periscope.png",
+        ]
     ];
     return view('home', $data);
 })->name("homepage");
