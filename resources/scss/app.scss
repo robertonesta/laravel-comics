@@ -1,1 +1,19 @@
 @import '~bootstrap/scss/bootstrap';
+
+footer{
+
+    .top_footer {
+        background-image: url('../img/footer-bg.jpg');
+        background-size: cover;
+        overflow: hidden;
+        height: 400px;
+
+    .footer_logo {
+        img{
+            position: absolute;
+            height: 400px;
+        };
+    }
+
+    }
+}
