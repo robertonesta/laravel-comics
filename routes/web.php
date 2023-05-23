@@ -1,6 +1,8 @@
 <?php
 
+use Dflydev\DotAccessData\Data;
 use Illuminate\Support\Facades\Route;
+use Symfony\Component\Mime\CharacterStream;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +16,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $data = array
+    (
+        'links' => [
+        'characters' => 'characters',
+        'comics' => 'comics',
+        'movies' => 'movies',
+        'tv' => 'tv',
+        'games' => 'games',
+        'collectibles' => 'collectibles',
+        'videos' => 'videos',
+        'fans' => 'fans',
+        'news' => 'news',
+        'shop' =>'shop',
+    ]);
+    return view('home', $data);
 })->name("homepage");
