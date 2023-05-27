@@ -9,7 +9,7 @@
             <div class="col g-3">
                 <div class="card h-100 border-0 bg-transparent">
                     <img class="img-fluid" src="{{ $comic['thumb'] }}" alt="{{$comic['title']}} Logo">
-                    <p class="text-white text-uppercase">{{$comic['title']}}</p>
+                    <p class="text-white text-uppercase py-3">{{$comic['title']}}</p>
                 </div>
             </div>
             @endforeach
