@@ -1,5 +1,13 @@
 @import '~bootstrap/scss/bootstrap';
 
+
+.jumbotron{
+        height: 400px;
+        background-image: url('../img/jumbotron.jpg');
+        background-size: cover;
+        background-position: top center;
+}
+
 footer{
     font-size: 0.7rem;
 
