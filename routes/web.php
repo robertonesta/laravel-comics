@@ -73,8 +73,8 @@ Route::get('/', function () {
                 'videos' => 'videos',
                 'news' => 'news',
             ],
-
         ],
+        'comics' => config('db'),
         'socials' => [
             "facebook.png",
             "twitter.png",
@@ -83,5 +83,5 @@ Route::get('/', function () {
             "periscope.png",
         ]
     ];
-    return view('home', $data);
-})->name("homepage");
+    return view('comics', $data);
+})->name("comics");

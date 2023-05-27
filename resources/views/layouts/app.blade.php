@@ -12,13 +12,15 @@
 </head>
 <body>
     @include('partials.header')
-    @include('partials.jumbo')
-    @include('partials.siteBanner')
-
+    
     <main>
-        @yield('content')
-    </main>
 
+        @include('partials.jumbo')
+        @yield('content')
+        @include('partials.siteBanner')
+
+    </main>
+    
     @include('partials.footer')
 </body>
 </html>
