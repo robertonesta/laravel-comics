@@ -13,6 +13,7 @@
 <body>
     @include('partials.header')
     @include('partials.jumbo')
+    @include('partials.siteBanner')
 
     <main>
         @yield('content')

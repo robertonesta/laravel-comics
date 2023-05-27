@@ -30,6 +30,13 @@ Route::get('/', function () {
             'news' => 'news',
             'shop' =>'shop',
         ],
+        "banners" => [
+            "digital comics" => "buy-comics-digital-comics.png",
+            "dc merchandise" => "buy-comics-merchandise.png",
+            "subscription" => "buy-comics-shop-locator.png",
+            "comic shop locator" => "buy-comics-subscriptions.png",
+            "dc power visa" => "buy-dc-power-visa.svg"
+        ],
         'ft_links' => [
             'dc comics' => [
                 'Characters' => 'Characters',
